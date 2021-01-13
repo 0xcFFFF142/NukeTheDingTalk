@@ -1,13 +1,16 @@
+# -*- coding: gbk -*-
 import sys
 from subprocess import Popen, DEVNULL
+from time import sleep
 
 
-def start(uuid, count, status):
+def start(uuid, count, status, interval):
     shell = "curl -G https://lv.dingtalk.com/interaction/createLike?uuid=" + uuid + "&count=" + str(count)
     for x in range(0, status):
         Popen(shell, stdout=DEVNULL)
         LikesValue = (x + 1) * count
-        print("æ­£åœ¨åˆ·èµ---è¯·æ±‚æ•°:å·²ç»æ‰§è¡Œ%dæ¬¡ï¼Œä¸€å…±%dæ¬¡ è¯·æ±‚é‡:%d" % (x+1, status, LikesValue))
+        print("ÕıÔÚË¢ÔŞ---ÇëÇóÊı:ÒÑ¾­Ö´ĞĞ%d´Î£¬Ò»¹²%d´Î ÇëÇóÁ¿:%d" % (x+1, status, LikesValue))
+        sleep(interval)
 
 
-start(str(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
+start(str(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), float(sys.argv[4]))
