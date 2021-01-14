@@ -21,17 +21,26 @@ echo       欢迎访问GitHub:https://github.com/0xcFFFF142/NukeTheDingTalk
 echo       如果你喜欢这个脚本 欢迎到GitHub给个star~
 echo ====================================================================
 	set /p uuida=           输入uuid:
+	
 	:uuid
+	
 	start /min /wait core\uuid.bat
+	
 	(for /l %%a in (1 1 1) do set /p uuid=)<core\tmp.txt
+	
 	del /s /q core\tmp.txt >nul
+	
+	set re=0
+	
 	if /i %re% == u goto r 
 	
 :intercept_left
-if "%uuid:~0,1%"==" " set "uuid=%uuid:~1%"&goto intercept_left
+
+if "%uuid:~0,1%"==" " set "uuid=%uuid:~1%" & goto intercept_left
 
 :intercept_right
-if "%uuid:~-1%"==" " set "uuid=%uuid:~0,-1%"&goto intercept_right
+
+if "%uuid:~-1%"==" " set "uuid=%uuid:~0,-1%" & goto intercept_right
 	set uuid
 	echo.
 	set countall=10000000
@@ -73,8 +82,9 @@ if "%uuid:~-1%"==" " set "uuid=%uuid:~0,-1%"&goto intercept_right
 	api.exe "%uuid%" %countall% %count% %ta%
 	
 	set start=%count% && goto q1
+			set start=1
 :r1
-		set start=1
+
 curl -G https://lv.dingtalk.com/interaction/createLike?uuid=%uuid%^&count=%countall%
 	echo  ...
 	set /a start=%start% + 1
@@ -83,9 +93,9 @@ echo ============================
 	set /a all=%countall%*%start%
 	title 正在刷赞---请求数:%start%/%count%  请求量:%countall%*%start%=%all%  UUID:%uuid%
 echo ============================
-	if /i %count% == lifetime goto r
+	if /i %count% == lifetime goto r1
 	if /i %start% == %count% goto q
-	if /i %start% LSS %count% goto r
+	if /i %start% LSS %count% goto r1
 :q1
 echo 正在等待余下进程退出....
 title 刷赞结束---请求数:%start%/%count%  请求量:%countall%*%start%=%all%  UUID:%uuid%
