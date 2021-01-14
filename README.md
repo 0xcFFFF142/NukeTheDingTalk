@@ -15,7 +15,10 @@ NukeTheDingTalk是一个2021传新版本钉钉可用的刷赞脚本
  
  4--->获取UUID
  
-!(1.png)[pic/1.png]
-!(2.png)[pic/2.png]
-!(3.png)[pic/3.png]
-!(4.png)[pic/4.png]
+![1.png][pic/1.png]
+
+![2.png][pic/2.png]
+
+![3.png][pic/3.png]
+
+![4.png][pic/4.png]
