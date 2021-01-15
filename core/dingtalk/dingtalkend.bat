@@ -12,9 +12,8 @@ echo.
 
 						echo       n              退出
 
-if /i %fast% == n 		echo       a              启用永别模式 ^(永不停息^)
+						echo       a              启用永别模式 ^(永不停息^)
 
-if /i %fast% == y 		echo       a              为了保护您的计算机,快速模式下不支持永别模式
 
 						echo       ^u              更正输入的uuid
 
@@ -33,9 +32,20 @@ if /i %fast% == y 		echo       a              为了保护您的计算机,快速
 
 						if /i '%re%' == 'n' set exit=y && call core\getinfo.bat
 
-						if /i '%re%' == 'a' 	if /i '%fast%' == 'y' echo 为了保护您的计算机,快速模式下不支持永别模式 && goto 1
 
-						if /i '%re%' == 'a' 	if /i '%fast%' == 'n' set count=lifetime && call core\dingtalk\run.bat
+						if /i '%re%' == 'a' 	(
+
+							set dogetuuid=n
+
+							set dogetcountall=n
+
+							set dogetcount=y
+
+							set dogetfastmode=n
+
+							set exit=n
+
+						) && call core\getinfo.bat
 
 						if /i '%re%' == 'u' 	(
 
