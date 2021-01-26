@@ -70,7 +70,11 @@ A:我觉得[这个](http://www.acesheep.com/src/helpyou/?int)很适合你
 
 Q:我有些问题想问
 
-A:建议你在提问前看看这些: [第一个](web/1.md)  [第二个](web/2.md)
+A:建议你在提问前看看这些: 
+
+> GitHub源: [第一个](https://github.com/0xc0000142/Stop-Ask-Questions-The-Stupid-Ways)  [第二个](https://github.com/0xc0000142/How-To-Ask-Questions-The-Smart-Way)
+>
+> Coding镜像: [第一个](https://fxc0000142.coding.net/public/NukeTheDingtalk/Stop-Ask-Questions-The-Stupid-Ways/git/files)  [第二个](https://fxc0000142.coding.net/public/NukeTheDingtalk/How-To-Ask-Questions-The-Smart-Way/git)
 
 如果你能遵守这些的话 ---->   [Click Here](https://qm.qq.com/cgi-bin/qm/qr?k=J6__CiOm8p23mJKF8GBllPuYkqXylG98&jump_from=webapi)
 
