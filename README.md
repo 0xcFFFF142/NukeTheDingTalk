@@ -7,7 +7,7 @@ NukeTheDingTalk是一个2021传新版本钉钉可用的刷赞脚本
  
  ## 2.用法
  
- 1--->从 release 下载最新的版本
+ 1--->从 [release](https://github.com/0xcFFFF142/NukeTheDingTalk/releases/latest) 下载最新的版本
  
  2--->下载并打开Fiddler(你自己不会下么 
  
