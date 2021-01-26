@@ -31,3 +31,25 @@ NukeTheDingTalk是一个2021传新版本钉钉可用的刷赞脚本
 
 ![4.png](pic/4.png)
 
+## Q/A -- 常见问题解答
+
+Q:我GitHub图片加载不出来
+
+A:请使用coding镜像 [Click Here](https://fxc0000142.coding.net/public/NukeTheDingtalk/NukeTheDingTalk/git/)
+  
+Q:UUID抓不到怎么办
+
+A:使劲抓(你不告诉我详细问题我上哪告诉你解答
+
+Q:Fiddler里面没有`h5.dingtalk.com`肿么办
+
+A: 
++ 请检查Fiddler的Https解密是否正常开启
+
++ 请检查Fiddler的代理配置是否正常
+
++ 请检查钉钉是否使用了浏览器代理(系统代理
+
+ > 诊断钉钉是否使用了系统代理
+ >
+ > 在钉钉里面打开直播看Fiddler有没有刷出dingtalk.exe的HTTP或HTTPS
