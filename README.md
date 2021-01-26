@@ -68,4 +68,10 @@ Q:这么多都跟int有关,int究竟是啥
 
 A:我觉得[这个](http://www.acesheep.com/src/helpyou/?int)很适合你
 
-A:另外,建议你看看这些: [第一个](web/1.md)  [第二个](web/2.md)
+Q:我有些问题想问
+
+A:建议你在提问前看看这些: [第一个](web/1.md)  [第二个](web/2.md)
+
+如果你能遵守这些的话 ---->   [Click Here](https://qm.qq.com/cgi-bin/qm/qr?k=J6__CiOm8p23mJKF8GBllPuYkqXylG98&jump_from=webapi)
+
+如果你不能遵守这些   ---->   **滚!!!!!!!!!!!!!!!!*
