@@ -74,4 +74,4 @@ A:建议你在提问前看看这些: [第一个](web/1.md)  [第二个](web/2.md
 
 如果你能遵守这些的话 ---->   [Click Here](https://qm.qq.com/cgi-bin/qm/qr?k=J6__CiOm8p23mJKF8GBllPuYkqXylG98&jump_from=webapi)
 
-如果你不能遵守这些   ---->   **滚!!!!!!!!!!!!!!!!*
+如果你不能遵守这些   ---->   **滚!!!!!!!!!!!!!!!!**
