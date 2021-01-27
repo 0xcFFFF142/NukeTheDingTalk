@@ -1,6 +1,6 @@
 echo 正在等待余下进程退出....
-title 刷赞结束---请求数:%start%/%count%  请求量:%countall%*%start%=%all%  UUID:%uuid%
-timeout 2
+	call core\title.bat end
+	timeout 2
 
 echo off
 :1
@@ -59,7 +59,9 @@ echo.
 
 							set exit=n
 
-						) && call core\getinfo.bat
+							if /i '%fast%' == 'n' set /a count=%count%+%count%
+						
+						)  && call core\getinfo.bat
 
 						if /i '%re%' == 'f' 	(
 
@@ -72,6 +74,8 @@ echo.
 							set dogetfastmode=y
 
 							set exit=n
+
+							if /i '%fast%' == 'n' set /a count=%count%+%count%
 
 						) && call core\getinfo.bat
 
@@ -87,7 +91,11 @@ echo.
 
 							set exit=n
 
+							if /i '%fast%' == 'n' set /a count=%count%+%count%
+
 						) && call core\getinfo.bat
+
+						if /i %count% == lifetime call core\dingtalk\run.bat
 
 						if /i %re% GEQ 0 set /a count=%count%+%re% && call core\dingtalk\run.bat
 

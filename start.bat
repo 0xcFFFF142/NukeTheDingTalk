@@ -15,8 +15,8 @@
 ::dAsiuh18IRvcCxnZtBNQ
 ::cRYluBh/LU+EWAjk
 ::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJieEkFAlTTcjrvSORJub6b
-::ZQ05rAF9IBncCkqN+0xwdVsGHFbTcjvrSORJprmuvrzn
+::cxY6rQJ7JhzQF1fEqQJieEkFAlTTcjntSORLurqb
+::ZQ05rAF9IBncCkqN+0xwdVsGHFbTcjvrSOdLprmsvbjn
 ::ZQ05rAF9IAHYFVzEqQK52vLdvu0H1Lwy00uUDBJ9Eybn
 ::eg0/rx1wNQPfEVWB+kM9LVsJDI1w1eJI7zD0P2AuEWJjWMvhmII=
 ::fBEirQZwNQPfEVWB+kM9LVsJDI1w1eJI7zD0P2AuEWJjWMvhmII=
@@ -27,7 +27,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCqDJG6B9n4DPA5QVTiuNX2/OudMurirvrvVnmMIX+cLcIr/07qJFOEf4XnKYJ0o4nJfvMICCy9ZchnmP0Fm5zkMs3yAVw==
+::Zh4grVQjdCqDJG6B9n4DPA5QVTiuNX2/OudMurirvrvVnmMIX+cLcIr/07qJFOEf4XnKYJ0o4nJfvMICCy9ZchnmP0Fn5z4Ms3yAVw==
 ::YB416Ek+Zm8=
 ::
 ::
@@ -35,6 +35,7 @@
 @echo off
 set path=%cd%\core;%cd%\core\apis;%path%
 set path
+set
 call core\hello.bat
 call core\getinfo.bat
 call core\dingtalk\run.bat
