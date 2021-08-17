@@ -1,7 +1,7 @@
 # NukeTheDingTalk
 *亲爱的钉钉我们又来了*
 ## 1.介绍
-NukeTheDingTalk是一个2021传新版本钉钉可用的刷赞脚本
+NukeTheDingTalk是一个2021船新版本钉钉可用的刷赞脚本
 
  就酱
  
